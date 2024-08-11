@@ -1,0 +1,12 @@
+[package]
+name = "autenticacion-jwt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.8.0"
+actix-web-grants = "4.1.1"
+actix-web-httpauth = "0.8.2"
+chrono = "0.4.38"
+jsonwebtoken = "9.3.0"
+serde = { version = "1.0.203", features = ["derive"] }
